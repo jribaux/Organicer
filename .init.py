@@ -2,9 +2,11 @@ __author__ = 'Brendan'
 
 # Imports
 import os.path
+
 import regAnalyse
 import finalDestination
 import moveFiles
+
 
 print("Starting Application...")
 
@@ -22,7 +24,7 @@ print(DirectoryTargets)
 regAnalyse.analayseList(DirectoryTargets, directory)
 
 # Go File by File Ranking them ( Low score aka s03e43.Bobs.Burgers.SCENENAME.03) Check if its a weird format
-# Find if its extractable preview its conents and extract specific types of data *.mkv *.mp3 *.mp4
+# Find if its extractable preview its contents and extract specific types of data *.mkv *.mp3 *.mp4
 # Just extract the shit and delete the leftovers?
 
 # Use this information to group it with similar files

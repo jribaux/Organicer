@@ -1,13 +1,11 @@
-__author__ = 'Brenda'
-
 # This is where the magic happens
-
 import re
 import os
 
 import fileObject
 
-#REGULAR EXPRESSIONS
+
+# REGULAR EXPRESSIONS
 versionReg = r'\d+(?:\.\d+){2,}'
 nameReg = r"(.+?)\.[^\.]+$"
 extensionReg = r"\.[0-9a-z]+$"
@@ -56,6 +54,7 @@ def nameRegex(DirectoryTarget):
 
 def stripString(str):
     return str.replace(".", " ").replace("-", " ").replace("_", " ")
+
 
 def showFileObjects():
     if files:
